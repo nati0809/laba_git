@@ -10,14 +10,7 @@ class DigitalClock {
   render(span, h , m, s) {
     setTimeout(function tick(){
     s++;
-    if (s==60) {
-      m++;
-      s=0;
-    }
-    if (m==60) {
-      h++;
-      m=0;
-    }
+   
     if (s<"10") {
       s.toString();
       let ss = "0"+s;
