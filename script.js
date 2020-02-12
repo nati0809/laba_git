@@ -20,12 +20,7 @@ class DigitalClock {
       m.toString();
       let mm = "0"+m;
       m = mm;
-    }
-    span.innerHTML = h+':'+m+":"+s;
-  setTimeout(tick, 1000);
-  }, 1000);
-  }
-}
+
 
 
 class Clock {
