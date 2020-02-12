@@ -27,12 +27,6 @@ class DigitalClock {
   }
 }
 
-class Adapter {
-  constructor(clock) {
-    let span = document.getElementById("span1")
-    this.dClock = new DigitalClock(span, clock.degh/6, clock.degm/6, clock.degs/6)
-  }
-}
 
 class Clock {
   constructor(span, h, m, s) {
